@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Премиальный beauty-салон Lumea Studio: волосы, nails, уход за лицом. Онлайн-запись, портфолио работ и персональный beauty-сервис."
+    />
+    <title>Lumea Studio | Премиальный beauty-салон</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container" aria-label="Основная навигация">
+          <a class="brand" href="#hero" aria-label="Lumea Studio">
+            <span class="brand-mark">L</span>
+            <span class="brand-text">
+              <strong>Lumea</strong>
+              <span>Beauty Studio</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Открыть меню</span>
+          </button>
+
+          <div class="nav-menu" id="nav-menu">
+            <a href="#services">Услуги</a>
+            <a href="#about">О салоне</a>
+            <a href="#gallery">Работы</a>
+            <a href="#testimonials">Отзывы</a>
+            <a href="#booking">Запись</a>
+            <a class="nav-cta" href="#booking">Book now</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-backdrop"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Премиальный ритуал ухода в центре города</p>
+              <h1>Образ, в который хочется возвращаться.</h1>
+              <p class="hero-text">
+                Волосы, nails и уход за кожей в пространстве, где сервис продуман так же точно,
+                как итоговый результат. Запишитесь онлайн и получите персональную beauty-консультацию.
+              </p>
+
+              <div class="hero-actions">
+                <a class="button button-primary" href="#booking">Записаться</a>
+                <a class="button button-secondary" href="#gallery">Смотреть работы</a>
+              </div>
+
+              <ul class="hero-metrics" aria-label="Преимущества салона">
+                <li>
+                  <strong>7 лет</strong>
+                  <span>создаем премиальный сервис</span>
+                </li>
+                <li>
+                  <strong>4.9/5</strong>
+                  <span>средняя оценка клиентов</span>
+                </li>
+                <li>
+                  <strong>1 800+</strong>
+                  <span>записей по рекомендации</span>
+                </li>
+              </ul>
+            </div>
+
+            <aside class="hero-card reveal reveal-delay" aria-label="Быстрая запись">
+              <p class="hero-card-label">Express booking</p>
+              <h2>Ваше окно на этой неделе</h2>
+              <p>
+                Подберем мастера, услугу и время за 2 минуты. Оставьте контакт и получите подтверждение.
+              </p>
+
+              <div class="hero-slots">
+                <div>
+                  <span>Сегодня</span>
+                  <strong>16:30</strong>
+                </div>
+                <div>
+                  <span>Завтра</span>
+                  <strong>11:00</strong>
+                </div>
+                <div>
+                  <span>Суббота</span>
+                  <strong>14:15</strong>
+                </div>
+              </div>
+
+              <a class="button button-primary button-block" href="#booking">Забронировать окно</a>
+            </aside>
+          </div>
+        </section>
+
+        <section class="trust-bar container reveal" aria-label="Ключевые преимущества">
+          <div>
+            <span>Персональный подбор ухода</span>
+            <p>Не продаем лишнее, а собираем процедуру под задачу и тип кожи или волос.</p>
+          </div>
+          <div>
+            <span>Премиальные составы</span>
+            <p>Работаем на профессиональных брендах и объясняем каждый этап процедуры.</p>
+          </div>
+          <div>
+            <span>Чистота и комфорт</span>
+            <p>Стерильные инструменты, спокойная атмосфера и внимание к деталям на каждом визите.</p>
+          </div>
+        </section>
+
+        <section class="section services" id="services">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Что мы делаем</p>
+              <h2>Услуги, которые работают на ваш образ, а не спорят с ним.</h2>
+              <p>
+                Сохраняем естественную эстетику, усиливаем впечатление и делаем уход удобной частью вашей недели.
+              </p>
+            </div>
+
+            <div class="services-grid">
+              <article class="service-card reveal">
+                <div class="service-icon">01</div>
+                <h3>Hair design</h3>
+                <p>Стрижки, окрашивание и восстановление волос с мягкой персонализацией под ваш стиль.</p>
+              </article>
+
+              <article class="service-card reveal reveal-delay">
+                <div class="service-icon">02</div>
+                <h3>Nail couture</h3>
+                <p>Маникюр и педикюр с безупречной обработкой, архитектурой формы и стойким покрытием.</p>
+              </article>
+
+              <article class="service-card reveal reveal-delay-2">
+                <div class="service-icon">03</div>
+                <h3>Skin ritual</h3>
+                <p>Уходы для сияния, глубокого увлажнения и восстановления барьера кожи без перегруза.</p>
+              </article>
+
+              <article class="service-card reveal">
+                <div class="service-icon">04</div>
+                <h3>Brow & lashes</h3>
+                <p>Точная коррекция, ламинирование и оформление взгляда для законченного мягкого акцента.</p>
+              </article>
+
+              <article class="service-card reveal reveal-delay">
+                <div class="service-icon">05</div>
+                <h3>Bridal styling</h3>
+                <p>Образ для важного дня: репетиция, укладка, макияж и тайминг без лишнего стресса.</p>
+              </article>
+
+              <article class="service-card reveal reveal-delay-2">
+                <div class="service-icon">06</div>
+                <h3>Beauty concierge</h3>
+                <p>Подбор домашнего ухода и графика процедур, чтобы результат сохранялся между визитами.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about">
+          <div class="container about-grid">
+            <div class="about-visual reveal">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Интерьер премиального beauty-салона"
+                loading="lazy"
+              />
+              <div class="about-badge">
+                <strong>Top-rated studio</strong>
+                <span>Спокойный сервис, точный результат, мастера с сильным портфолио.</span>
+              </div>
+            </div>
+
+            <div class="about-copy reveal reveal-delay">
+              <p class="eyebrow">О салоне</p>
+              <h2>Lumea Studio создавался как место, где красота ощущается не спешкой, а уверенностью.</h2>
+              <p>
+                Мы не делаем потоковый сервис. Каждый визит начинается с короткой консультации: оцениваем задачу,
+                состояние волос или кожи, образ жизни и только после этого предлагаем процедуру.
+              </p>
+              <p>
+                За это нас выбирают клиенты, которым важны предсказуемый результат, деликатная эстетика и ощущение,
+                что о них действительно позаботились.
+              </p>
+
+              <div class="about-points">
+                <div>
+                  <strong>Персональные beauty-маршруты</strong>
+                  <span>Планируем не одну процедуру, а устойчивый результат на недели вперед.</span>
+                </div>
+                <div>
+                  <strong>Экспертная команда</strong>
+                  <span>Мастера регулярно проходят повышения и работают с актуальными техниками 2026 года.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section gallery" id="gallery">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Портфолио</p>
+              <h2>Работы, которые клиенты сохраняют в избранное перед записью.</h2>
+              <p>Нажмите на фото, чтобы открыть крупный просмотр. Подборка собрана из самых востребованных направлений.</p>
+            </div>
+
+            <div class="gallery-grid">
+              <button class="gallery-item reveal" type="button" data-lightbox-src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Укладка и окрашивание в мягких оттенках">
+                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80" alt="Укладка и окрашивание в мягких оттенках" loading="lazy" />
+                <span>Hair transformation</span>
+              </button>
+
+              <button class="gallery-item reveal reveal-delay" type="button" data-lightbox-src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Премиальный нюдовый маникюр">
+                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=700&q=80" alt="Премиальный нюдовый маникюр" loading="lazy" />
+                <span>Nail couture</span>
+              </button>
+
+              <button class="gallery-item reveal reveal-delay-2" type="button" data-lightbox-src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Уход за лицом и сияющая кожа">
+                <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80" alt="Уход за лицом и сияющая кожа" loading="lazy" />
+                <span>Skin ritual</span>
+              </button>
+
+              <button class="gallery-item reveal" type="button" data-lightbox-src="https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Свадебный beauty-образ">
+                <img src="https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=700&q=80" alt="Свадебный beauty-образ" loading="lazy" />
+                <span>Bridal beauty</span>
+              </button>
+
+              <button class="gallery-item reveal reveal-delay" type="button" data-lightbox-src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Оформление бровей и ресниц">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80" alt="Оформление бровей и ресниц" loading="lazy" />
+                <span>Brow & lashes</span>
+              </button>
+
+              <button class="gallery-item reveal reveal-delay-2" type="button" data-lightbox-src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&q=80" data-lightbox-alt="Атмосфера студии и зона ожидания">
+                <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=80" alt="Атмосфера студии и зона ожидания" loading="lazy" />
+                <span>Studio mood</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonials" id="testimonials">
+          <div class="container testimonials-shell reveal">
+            <div class="section-heading section-heading-left">
+              <p class="eyebrow">Отзывы клиентов</p>
+              <h2>Возвращаются не только за результатом, но и за ощущением, что все под контролем.</h2>
+            </div>
+
+            <div class="testimonial-slider" aria-roledescription="carousel">
+              <div class="testimonial-track">
+                <article class="testimonial-card is-active">
+                  <p>
+                    “Окрашивание получилось именно таким, как я хотела: дорого, мягко и без ощущения, что волосы устали.
+                    Отдельно ценю спокойную коммуникацию и точность по времени.”
+                  </p>
+                  <div>
+                    <strong>Алина, 29</strong>
+                    <span>Hair design client</span>
+                  </div>
+                </article>
+
+                <article class="testimonial-card">
+                  <p>
+                    “Здесь умеют сделать manicure так, чтобы руки выглядели ухоженно и статусно, а не перегруженно.
+                    Сервис очень собранный, без хаоса.”
+                  </p>
+                  <div>
+                    <strong>Марина, 34</strong>
+                    <span>Nail couture client</span>
+                  </div>
+                </article>
+
+                <article class="testimonial-card">
+                  <p>
+                    “После курса уходов кожа стала заметно спокойнее и ровнее. Понравилось, что мне объяснили, что реально
+                    нужно, а что нет. Это вызывает доверие.”
+                  </p>
+                  <div>
+                    <strong>Екатерина, 41</strong>
+                    <span>Skin ritual client</span>
+                  </div>
+                </article>
+              </div>
+
+              <div class="slider-controls" aria-label="Управление отзывами">
+                <button class="slider-button" type="button" data-direction="prev" aria-label="Предыдущий отзыв">&#8592;</button>
+                <div class="slider-dots" aria-label="Пагинация отзывов"></div>
+                <button class="slider-button" type="button" data-direction="next" aria-label="Следующий отзыв">&#8594;</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section booking" id="booking">
+          <div class="container booking-grid">
+            <div class="booking-copy reveal">
+              <p class="eyebrow">Онлайн-запись</p>
+              <h2>Забронируйте визит и получите подбор услуги под ваш запрос.</h2>
+              <p>
+                Оставьте минимум данных. Администратор свяжется с вами, уточнит детали и предложит удобное время.
+              </p>
+
+              <ul class="booking-list">
+                <li>Ответ в рабочее время в течение 15 минут</li>
+                <li>Помощь с выбором мастера и услуги</li>
+                <li>Подтверждение записи по телефону или в мессенджере</li>
+              </ul>
+            </div>
+
+            <form class="booking-form reveal reveal-delay" novalidate>
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input id="name" name="name" type="text" placeholder="Как к вам обращаться" required />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="contact">Телефон или email</label>
+                <input id="contact" name="contact" type="text" placeholder="+7 (999) 000-00-00" required />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="service">Услуга</label>
+                <select id="service" name="service" required>
+                  <option value="">Выберите направление</option>
+                  <option value="hair">Hair design</option>
+                  <option value="nails">Nail couture</option>
+                  <option value="skin">Skin ritual</option>
+                  <option value="brows">Brow & lashes</option>
+                  <option value="bridal">Bridal styling</option>
+                </select>
+                <small class="error-message"></small>
+              </div>
+
+              <button class="button button-primary button-block" type="submit">Отправить заявку</button>
+              <p class="form-note">Нажимая на кнопку, вы соглашаетесь на обработку контактных данных для обратной связи.</p>
+              <p class="form-success" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+
+        <section class="final-cta section">
+          <div class="container final-cta-card reveal">
+            <div>
+              <p class="eyebrow">Ваш следующий визит</p>
+              <h2>Оставьте время для себя. Остальное мы организуем.</h2>
+            </div>
+            <a class="button button-primary" href="#booking">Записаться сейчас</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <a class="brand brand-footer" href="#hero">
+              <span class="brand-mark">L</span>
+              <span class="brand-text">
+                <strong>Lumea</strong>
+                <span>Beauty Studio</span>
+              </span>
+            </a>
+            <p class="footer-copy">Премиальный beauty-салон для тех, кто ценит эстетичный результат и спокойный сервис.</p>
+          </div>
+
+          <div>
+            <h3>Контакты</h3>
+            <ul>
+              <li>+7 (901) 555-24-24</li>
+              <li>hello@lumeastudio.ru</li>
+              <li>Москва, Большая Дмитровка, 18</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Часы работы</h3>
+            <ul>
+              <li>Пн–Пт: 10:00–21:00</li>
+              <li>Сб–Вс: 10:00–20:00</li>
+              <li>По записи день в день</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Соцсети</h3>
+            <ul>
+              <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+              <li><a href="https://t.me" target="_blank" rel="noreferrer">Telegram</a></li>
+              <li><a href="https://wa.me" target="_blank" rel="noreferrer">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Просмотр изображения">
+      <button class="lightbox-close" type="button" aria-label="Закрыть просмотр">&#10005;</button>
+      <img class="lightbox-image" src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
