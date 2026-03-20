@@ -90,7 +90,7 @@ const renderDots = () => {
     const dot = document.createElement('button');
     dot.type = 'button';
     dot.className = `slider-dot${index === activeSlide ? ' is-active' : ''}`;
-    dot.setAttribute('aria-label', `Показать отзыв ${index + 1}`);
+    dot.setAttribute('aria-label', `Show testimonial ${index + 1}`);
     dot.addEventListener('click', () => {
       showSlide(index);
       restartAutoplay();
@@ -153,9 +153,9 @@ const validators = {
 };
 
 const fieldErrors = {
-  name: 'Введите имя не короче двух символов.',
-  contact: 'Укажите корректный телефон или email.',
-  service: 'Выберите услугу.',
+  name: 'Enter a name with at least 2 characters.',
+  contact: 'Enter a valid phone number or email.',
+  service: 'Select a service.',
 };
 
 const setFieldState = (field, isValid) => {
@@ -198,7 +198,7 @@ if (bookingForm) {
       return;
     }
 
-    successMessage.textContent = 'Спасибо. Заявка отправлена. Мы свяжемся с вами, чтобы подтвердить запись.';
+    successMessage.textContent = 'Thank you. Your request has been sent. We will contact you to confirm your booking.';
     bookingForm.reset();
   });
 }
